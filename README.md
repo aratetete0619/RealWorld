@@ -22,9 +22,29 @@ This application requires the following dependencies:
 To get started with the application, follow these steps:
 
 1. Clone the repository:
+
+```sh
+git clone [repository_url]
+```
+
 2. Install the dependencies:
+
+```sh
+bundle install
+```
+
 3. Set up the database:
+
+```sh
+rails db:create
+rails db:migrate
+```
+
 4. Start the server:
+
+```sh
+rails server
+```
 
 5. Open your web browser and navigate to `http://localhost:3000` to access the application.
 
