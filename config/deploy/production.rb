@@ -50,12 +50,8 @@
 # The server-based syntax can be used to override options:
 # ------------------------------------
 server '54.250.3.214', user: 'ec2-user', roles: %w{app db web}
-#   user: "user_name",
-#   roles: %w{web app},
 set :ssh_options, {
-#     user: "user_name", # overrides user setting above
-    keys: %w(/home/.private_key/realworld-key.pem),
+    keys: %w(/path/to/your/key.pem),
     forward_agent: true,
     auth_methods: %w(publickey)
-#     # password: "please use keys"
-   }
+}
