@@ -49,7 +49,7 @@
 #
 # The server-based syntax can be used to override options:
 # ------------------------------------
-server '54.250.3.214', user: 'ec2-user', roles: %w{app db web}
+server '3.112.238.29', user: 'ec2-user', roles: %w{app db web}
 set :ssh_options, {
     keys: %w(/path/to/your/key.pem),
     forward_agent: true,
