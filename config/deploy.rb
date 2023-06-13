@@ -11,7 +11,7 @@ set :branch, :main
 
 # rbenvを使用する場合の設定
 set :rbenv_type, :user
-set :rbenv_ruby, '3.2.2'
+set :rbenv_ruby, '3.2.0'
 
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, '/home/ec2-user/RealWorld'
