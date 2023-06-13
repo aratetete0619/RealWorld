@@ -3,7 +3,9 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
-  resources :articles, only: [:create, :show, :update, :destroy]
-  post 'users', to: 'users#create'
-
+  scope '/api' do
+    resources :articles, only: [:create, :show, :update, :destroy]
+    post 'users', to: 'users#create'
+    post 'users/login', to: 'authentication#create'
+  end
 end
