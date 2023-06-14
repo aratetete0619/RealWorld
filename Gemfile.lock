@@ -144,6 +144,7 @@ GEM
     mini_mime (1.1.2)
     minitest (5.18.0)
     msgpack (1.7.1)
+    mysql2 (0.5.5)
     net-imap (0.3.4)
       date
       net-protocol
@@ -157,8 +158,6 @@ GEM
       net-protocol
     net-ssh (7.1.0)
     nio4r (2.5.9)
-    nokogiri (1.15.2-x86_64-darwin)
-      racc (~> 1.4)
     nokogiri (1.15.2-x86_64-linux)
       racc (~> 1.4)
     public_suffix (5.0.1)
@@ -229,7 +228,6 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.6.3-x86_64-darwin)
     sqlite3 (1.6.3-x86_64-linux)
     sshkit (1.21.4)
       net-scp (>= 1.1.2)
@@ -279,6 +277,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   jwt (~> 2.2)
+  mysql2
   puma (~> 5.0)
   rails (~> 7.0.5)
   rspec-rails (~> 5.0)

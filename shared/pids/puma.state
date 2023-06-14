@@ -1,0 +1,5 @@
+---
+pid: 140930
+control_url: unix:///tmp/puma-status-1686732473071-140930
+control_auth_token: c2296f5e5ba42312089f05a84ef58b4f
+running_from: "/home/ec2-user/RealWorld"
