@@ -52,8 +52,6 @@ rails db:migrate
 
 4. サーバーを起動します
 
-:
-
 ```sh
 rails server
 ```
