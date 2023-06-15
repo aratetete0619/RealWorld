@@ -1,3 +1,10 @@
 require: rubocop-rails
 AllCops:
-  TargetRubyVersion: 3.2
+  Include:
+    - '**/*.rb'
+  Exclude:
+    - 'vendor/**/*'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'bin/**/*'
+    - 'shared/bundle/**/*'

@@ -51,6 +51,8 @@ gem "bootsnap", require: false
 gem 'jwt', '~> 2.2'
 gem 'rubocop', require: false
 gem 'rubocop-rails'
+gem 'rubocop-discourse'
+
 
 
 group :development, :test do
