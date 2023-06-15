@@ -1,13 +1,12 @@
 # config valid for current version and patch releases of Capistrano
-lock "~> 3.17.3"
+lock '~> 3.17.3'
 
-set :application, "RealWorld"
-set :repo_url, "https://github.com/aratetete0619/RealWorld"
+set :application, 'RealWorld'
+set :repo_url, 'https://github.com/aratetete0619/RealWorld'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 set :branch, :main
-
 
 # rbenvを使用する場合の設定
 set :rbenv_type, :user
@@ -16,9 +15,9 @@ set :rbenv_ruby, '3.2.0'
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, '/home/ec2-user/RealWorld'
 
-
 # リンクするディレクトリ（shared以下にリンクする）
-set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'public/system', 'public/uploads')
+set :linked_dirs,
+    fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'public/system', 'public/uploads')
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
