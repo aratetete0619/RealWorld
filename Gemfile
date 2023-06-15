@@ -49,7 +49,8 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 gem 'jwt', '~> 2.2'
-gem 'mysql2'
+gem 'rubocop', require: false
+gem 'rubocop-rails'
 
 
 group :development, :test do
@@ -82,4 +83,8 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+end
+
+group :production do
+  gem 'mysql2'
 end
