@@ -4,13 +4,13 @@
 
 ## 特長とAPIの使い方
 
-- ユーザー認証: ユーザーはサインアップ、ログイン、ログアウトが可能です。
+ユーザー認証: ユーザーはサインアップ、ログイン、ログアウトが可能です。
    ```sh
    # ユーザー登録
    curl -X POST -H "Content-Type: application/json" -d '{ "user": { "username": "testuser", "email": "testuser@example.com", "password": "testpassword" } }' https://nexusxsatoshi.com/api/users
    ```
 
-- TodoのCRUD: ユーザーは自分のTodoタスクを作成、閲覧、更新、削除が可能です。
+TodoのCRUD: ユーザーは自分のTodoタスクを作成、閲覧、更新、削除が可能です。
    ```sh
    # Todoタスクの作成
    curl -X POST -H "Content-Type: application/json" -d '{ "todo": { "title": "Task 1", "description": "My first task" } }' https://nexusxsatoshi.com/api/todos
