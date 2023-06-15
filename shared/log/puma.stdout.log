@@ -16,3 +16,246 @@ No such file or directory @ rb_sysopen - /home/ec2-user/RealWorld/shared/pids/pu
 [140948] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
 [140930] - Worker 0 (PID: 140948) booted in 2.76s, phase: 0
 [140930] - Worker 1 (PID: 140949) booted in 2.77s, phase: 0
+[140930] - Gracefully shutting down workers...
+[140930] === puma shutdown: 2023-06-14 11:22:25 +0000 ===
+[140930] - Goodbye!
+=== puma startup: 2023-06-14 12:40:02 +0000 ===
+[150906] * Starting control server on unix:///tmp/puma-status-1686746402354-150906
+[150979] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[150980] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[150906] - Worker 1 (PID: 150980) booted in 2.72s, phase: 0
+[150906] - Worker 0 (PID: 150979) booted in 2.76s, phase: 0
+[150906] === puma shutdown: 2023-06-14 12:42:08 +0000 ===
+[150906] - Goodbye!
+[150906] - Gracefully shutting down workers...
+=== puma startup: 2023-06-14 12:42:09 +0000 ===
+[151309] * Starting control server on unix:///tmp/puma-status-1686746529590-151309
+[151328] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[151329] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[151309] - Worker 0 (PID: 151328) booted in 2.61s, phase: 0
+[151309] - Worker 1 (PID: 151329) booted in 2.62s, phase: 0
+[151309] === puma shutdown: 2023-06-14 12:42:34 +0000 ===
+[151309] - Goodbye!
+[151309] - Gracefully shutting down workers...
+=== puma startup: 2023-06-14 12:42:34 +0000 ===
+[151415] * Starting control server on unix:///tmp/puma-status-1686746554786-151415
+[151437] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[151438] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[151415] - Worker 0 (PID: 151437) booted in 2.59s, phase: 0
+[151415] - Worker 1 (PID: 151438) booted in 2.59s, phase: 0
+[151415] === puma shutdown: 2023-06-14 12:44:53 +0000 ===
+[151415] - Goodbye!
+[151415] - Gracefully shutting down workers...
+=== puma startup: 2023-06-14 12:44:53 +0000 ===
+[151676] * Starting control server on unix:///tmp/puma-status-1686746693815-151676
+[151696] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[151695] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[151676] - Worker 0 (PID: 151695) booted in 2.65s, phase: 0
+[151676] - Worker 1 (PID: 151696) booted in 2.66s, phase: 0
+[151676] === puma shutdown: 2023-06-14 12:44:58 +0000 ===
+[151676] - Goodbye!
+[151676] - Gracefully shutting down workers...
+=== puma startup: 2023-06-14 12:44:58 +0000 ===
+[151737] * Starting control server on unix:///tmp/puma-status-1686746698865-151737
+[151756] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[151757] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[151737] - Worker 1 (PID: 151757) booted in 2.72s, phase: 0
+[151737] - Worker 0 (PID: 151756) booted in 2.73s, phase: 0
+[151737] === puma shutdown: 2023-06-14 12:45:02 +0000 ===
+[151737] - Goodbye!
+[151737] - Gracefully shutting down workers...
+=== puma startup: 2023-06-14 12:45:03 +0000 ===
+[151798] * Starting control server on unix:///tmp/puma-status-1686746703118-151798
+[151818] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[151817] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[151798] - Worker 0 (PID: 151817) booted in 2.71s, phase: 0
+[151798] - Worker 1 (PID: 151818) booted in 2.72s, phase: 0
+[151798] === puma shutdown: 2023-06-14 12:46:44 +0000 ===
+[151798] - Goodbye!
+[151798] - Gracefully shutting down workers...
+=== puma startup: 2023-06-14 12:46:44 +0000 ===
+[152449] * Starting control server on unix:///tmp/puma-status-1686746804860-152449
+[152468] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[152469] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[152449] - Worker 1 (PID: 152469) booted in 2.7s, phase: 0
+[152449] - Worker 0 (PID: 152468) booted in 2.72s, phase: 0
+[152449] === puma shutdown: 2023-06-14 12:49:04 +0000 ===
+[152449] - Goodbye!
+[152449] - Gracefully shutting down workers...
+=== puma startup: 2023-06-14 12:49:04 +0000 ===
+[153068] * Starting control server on unix:///tmp/puma-status-1686746944955-153068
+[153087] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[153088] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[153068] - Worker 1 (PID: 153088) booted in 2.77s, phase: 0
+[153068] - Worker 0 (PID: 153087) booted in 2.78s, phase: 0
+[153068] - Gracefully shutting down workers...
+[153068] * Restarting...
+[153068] Puma starting in cluster mode...
+[153068] * Puma version: 5.6.5 (ruby 3.2.0-p0) ("Birdie's Version")
+[153068] *  Min threads: 1
+[153068] *  Max threads: 6
+[153068] *  Environment: production
+[153068] *   Master PID: 153068
+[153068] *      Workers: 2
+[153068] *     Restarts: (✔) hot (✔) phased
+[153068] * Inherited unix:///home/ec2-user/RealWorld/shared/sockets/puma.sock
+[153068] Use Ctrl-C to stop
+=== puma startup: 2023-06-14 12:52:12 +0000 ===
+[153068] * Starting control server on unix:///tmp/puma-status-1686747132235-153068
+[153489] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[153488] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[153068] - Worker 1 (PID: 153489) booted in 2.63s, phase: 0
+[153068] - Worker 0 (PID: 153488) booted in 2.63s, phase: 0
+[153068] === puma shutdown: 2023-06-14 12:52:22 +0000 ===
+[153068] - Goodbye!
+[153068] - Gracefully shutting down workers...
+=== puma startup: 2023-06-14 12:52:23 +0000 ===
+[153595] * Starting control server on unix:///tmp/puma-status-1686747143579-153595
+[153616] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[153615] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[153595] - Worker 0 (PID: 153615) booted in 2.64s, phase: 0
+[153595] - Worker 1 (PID: 153616) booted in 2.64s, phase: 0
+[153595] === puma shutdown: 2023-06-14 12:53:56 +0000 ===
+[153595] - Goodbye!
+[153595] - Gracefully shutting down workers...
+=== puma startup: 2023-06-14 12:53:57 +0000 ===
+[153744] * Starting control server on unix:///tmp/puma-status-1686747237552-153744
+[153763] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[153764] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[153744] - Worker 1 (PID: 153764) booted in 2.66s, phase: 0
+[153744] - Worker 0 (PID: 153763) booted in 2.67s, phase: 0
+[153744] - Gracefully shutting down workers...
+[153744] * Restarting...
+[153744] Puma starting in cluster mode...
+[153744] * Puma version: 5.6.5 (ruby 3.2.0-p0) ("Birdie's Version")
+[153744] *  Min threads: 1
+[153744] *  Max threads: 6
+[153744] *  Environment: production
+[153744] *   Master PID: 153744
+[153744] *      Workers: 2
+[153744] *     Restarts: (✔) hot (✔) phased
+[153744] * Inherited unix:///home/ec2-user/RealWorld/shared/sockets/puma.sock
+[153744] Use Ctrl-C to stop
+=== puma startup: 2023-06-15 06:59:16 +0000 ===
+[153744] * Starting control server on unix:///tmp/puma-status-1686812356160-153744
+[187504] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[187505] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[153744] - Worker 0 (PID: 187504) booted in 2.67s, phase: 0
+[153744] - Worker 1 (PID: 187505) booted in 2.68s, phase: 0
+[153744] - Gracefully shutting down workers...
+[153744] * Restarting...
+[153744] Puma starting in cluster mode...
+[153744] * Puma version: 5.6.5 (ruby 3.2.0-p0) ("Birdie's Version")
+[153744] *  Min threads: 1
+[153744] *  Max threads: 6
+[153744] *  Environment: production
+[153744] *   Master PID: 153744
+[153744] *      Workers: 2
+[153744] *     Restarts: (✔) hot (✔) phased
+[153744] * Inherited unix:///home/ec2-user/RealWorld/shared/sockets/puma.sock
+[153744] Use Ctrl-C to stop
+=== puma startup: 2023-06-15 07:00:46 +0000 ===
+[153744] * Starting control server on unix:///tmp/puma-status-1686812446966-153744
+[187613] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[187614] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[153744] - Worker 1 (PID: 187614) booted in 2.59s, phase: 0
+[153744] - Worker 0 (PID: 187613) booted in 2.59s, phase: 0
+[153744] - Gracefully shutting down workers...
+[153744] * Restarting...
+[153744] Puma starting in cluster mode...
+[153744] * Puma version: 5.6.5 (ruby 3.2.0-p0) ("Birdie's Version")
+[153744] *  Min threads: 1
+[153744] *  Max threads: 6
+[153744] *  Environment: production
+[153744] *   Master PID: 153744
+[153744] *      Workers: 2
+[153744] *     Restarts: (✔) hot (✔) phased
+[153744] * Inherited unix:///home/ec2-user/RealWorld/shared/sockets/puma.sock
+[153744] Use Ctrl-C to stop
+=== puma startup: 2023-06-15 07:13:49 +0000 ===
+[153744] * Starting control server on unix:///tmp/puma-status-1686813229059-153744
+[188624] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[188623] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[153744] - Worker 0 (PID: 188623) booted in 2.59s, phase: 0
+[153744] - Worker 1 (PID: 188624) booted in 2.59s, phase: 0
+[153744] - Gracefully shutting down workers...
+[153744] * Restarting...
+[153744] Puma starting in cluster mode...
+[153744] * Puma version: 5.6.5 (ruby 3.2.0-p0) ("Birdie's Version")
+[153744] *  Min threads: 1
+[153744] *  Max threads: 6
+[153744] *  Environment: production
+[153744] *   Master PID: 153744
+[153744] *      Workers: 2
+[153744] *     Restarts: (✔) hot (✔) phased
+[153744] * Inherited unix:///home/ec2-user/RealWorld/shared/sockets/puma.sock
+[153744] Use Ctrl-C to stop
+=== puma startup: 2023-06-15 07:17:32 +0000 ===
+[153744] * Starting control server on unix:///tmp/puma-status-1686813452108-153744
+[188885] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[188886] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[153744] - Worker 1 (PID: 188886) booted in 2.8s, phase: 0
+[153744] - Worker 0 (PID: 188885) booted in 2.8s, phase: 0
+[153744] - Gracefully shutting down workers...
+[153744] * Restarting...
+[153744] Puma starting in cluster mode...
+[153744] * Puma version: 5.6.5 (ruby 3.2.0-p0) ("Birdie's Version")
+[153744] *  Min threads: 1
+[153744] *  Max threads: 6
+[153744] *  Environment: production
+[153744] *   Master PID: 153744
+[153744] *      Workers: 2
+[153744] *     Restarts: (✔) hot (✔) phased
+[153744] * Inherited unix:///home/ec2-user/RealWorld/shared/sockets/puma.sock
+[153744] Use Ctrl-C to stop
+=== puma startup: 2023-06-15 07:47:27 +0000 ===
+[153744] * Starting control server on unix:///tmp/puma-status-1686815247975-153744
+[190744] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[190745] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[153744] - Worker 1 (PID: 190745) booted in 2.64s, phase: 0
+[153744] - Worker 0 (PID: 190744) booted in 2.64s, phase: 0
+[153744] - Gracefully shutting down workers...
+[153744] * Restarting...
+[153744] Puma starting in cluster mode...
+[153744] * Puma version: 5.6.5 (ruby 3.2.0-p0) ("Birdie's Version")
+[153744] *  Min threads: 1
+[153744] *  Max threads: 6
+[153744] *  Environment: production
+[153744] *   Master PID: 153744
+[153744] *      Workers: 2
+[153744] *     Restarts: (✔) hot (✔) phased
+[153744] * Inherited unix:///home/ec2-user/RealWorld/shared/sockets/puma.sock
+[153744] Use Ctrl-C to stop
+=== puma startup: 2023-06-15 08:45:14 +0000 ===
+[153744] * Starting control server on unix:///tmp/puma-status-1686818714229-153744
+[194193] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[194192] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[153744] - Worker 1 (PID: 194193) booted in 2.65s, phase: 0
+[153744] - Worker 0 (PID: 194192) booted in 2.66s, phase: 0
+[153744] === puma shutdown: 2023-06-15 08:49:02 +0000 ===
+[153744] - Goodbye!
+[153744] - Gracefully shutting down workers...
+=== puma startup: 2023-06-15 08:49:02 +0000 ===
+[194703] * Starting control server on unix:///tmp/puma-status-1686818942941-194703
+[194723] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[194724] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[194703] - Worker 1 (PID: 194724) booted in 2.64s, phase: 0
+[194703] - Worker 0 (PID: 194723) booted in 2.64s, phase: 0
+[194703] === puma shutdown: 2023-06-15 08:55:34 +0000 ===
+[194703] - Goodbye!
+[194703] - Gracefully shutting down workers...
+=== puma startup: 2023-06-15 08:55:34 +0000 ===
+[195229] * Starting control server on unix:///tmp/puma-status-1686819334956-195229
+[195250] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[195249] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[195229] - Worker 1 (PID: 195250) booted in 2.64s, phase: 0
+[195229] - Worker 0 (PID: 195249) booted in 2.65s, phase: 0
+[195229] === puma shutdown: 2023-06-15 08:56:41 +0000 ===
+[195229] - Goodbye!
+[195229] - Gracefully shutting down workers...
+=== puma startup: 2023-06-15 08:56:42 +0000 ===
+[195379] * Starting control server on unix:///tmp/puma-status-1686819402232-195379
+[195399] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[195398] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[195379] - Worker 1 (PID: 195399) booted in 2.66s, phase: 0
+[195379] - Worker 0 (PID: 195398) booted in 2.66s, phase: 0

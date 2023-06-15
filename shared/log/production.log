@@ -1,0 +1,1 @@
+W, [2023-06-14T12:38:06.481468 #150553]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".

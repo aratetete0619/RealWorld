@@ -6,31 +6,17 @@ environment 'production'
 
 tag ''
 
-pidfile "/home/ec2-user/RealWorld/shared/tmp/pids/puma.pid"
-state_path "/home/ec2-user/RealWorld/shared/tmp/pids/puma.state"
+pidfile "/home/ec2-user/RealWorld/shared/pids/puma.pid"
+state_path "/home/ec2-user/RealWorld/shared/pids/puma.state"
 stdout_redirect '/home/ec2-user/RealWorld/shared/log/puma_access.log', '/home/ec2-user/RealWorld/shared/log/puma_error.log', true
 
+# スレッドとワーカーの数を調整
+threads 1,16
+workers 2
 
-threads 0,16
+bind 'unix:///home/ec2-user/RealWorld/shared/sockets/puma.sock'
 
-
-
-bind 'unix:///home/ec2-user/RealWorld/shared/tmp/sockets/puma.sock'
-
-workers 0
-
-
-
-
+# 必要に応じて restart_command を修正
 restart_command 'bundle exec puma'
 
-
 prune_bundler
-
-
-on_restart do
-  puts 'Refreshing Gemfile'
-  ENV["BUNDLE_GEMFILE"] = ""
-end
-
-
