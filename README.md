@@ -1,59 +1,64 @@
-# Rails Todo App
+# Rails Todoアプリ
 
-This is a simple Todo application built with Ruby on Rails. It allows users to create, manage, and complete their todo tasks.
+これはRuby on Railsで作成されたシンプルなTodoアプリケーションです。ユーザーは自分のTodoタスクを作成、管理、完了させることができます。このアプリケーションは[https://nexusxsatoshi.com](https://nexusxsatoshi.com) で利用可能です。
 
-## Features
+## 特長とAPIの使い方
 
-- User authentication: Users can sign up, log in, and log out.
-- Todo CRUD: Users can create, read, update, and delete their todo tasks.
-- Mark as complete: Users can mark their todo tasks as complete.
-- Filtering: Users can filter their tasks based on their completion status (completed/incomplete).
-- Responsive design: The app is built with responsive design principles and is mobile-friendly.
+- ユーザー認証: ユーザーはサインアップ、ログイン、ログアウトが可能です。
+   ```sh
+   # ユーザー登録
+   curl -X POST -H "Content-Type: application/json" -d '{ "user": { "username": "testuser", "email": "testuser@example.com", "password": "testpassword" } }' https://nexusxsatoshi.com/api/users
+   ```
 
-## Dependencies
+- TodoのCRUD: ユーザーは自分のTodoタスクを作成、閲覧、更新、削除が可能です。
+   ```sh
+   # Todoタスクの作成
+   curl -X POST -H "Content-Type: application/json" -d '{ "todo": { "title": "Task 1", "description": "My first task" } }' https://nexusxsatoshi.com/api/todos
+   ```
 
-This application requires the following dependencies:
+## 依存性
+
+このアプリケーションは次の依存性を要します:
 
 - Ruby 3.1.2
 - Rails 7.05
 
-## Getting Started
+## 開発環境での始め方
 
-To get started with the application, follow these steps:
+アプリケーションをローカルで開発するための手順は次の通りです:
 
-1. Clone the repository:
+1. リポジトリをクローンします:
 
 ```sh
 git clone https://github.com/aratetete0619/RealWorld.git
 ```
 
-2. Install the dependencies:
+2. 依存性をインストールします:
 
 ```sh
 bundle install
 ```
 
-3. Set up the database:
+3. データベースをセットアップします:
 
 ```sh
 rails db:create
 rails db:migrate
 ```
 
-4. Start the server:
+4. サーバーを起動します
+
+:
 
 ```sh
 rails server
 ```
 
-5. Open your web browser and navigate to `http://localhost:3000` to access the application.
+5. ウェブブラウザを開き、`http://localhost:3000` にアクセスしてアプリケーションを利用します。
 
-## Contributing
+## 貢献
 
-Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please open an issue or submit a pull request.
-
-
-
+ご意見、改善案、バグ修正など大歓迎です！何かあれば、イシューを開いたり、プルリクエストを送信してください。
 
 
 
