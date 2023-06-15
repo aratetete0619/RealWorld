@@ -27,6 +27,9 @@ TodoのCRUD: ユーザーは自分のTodoタスクを作成、閲覧、更新、
 - Ruby 3.1.2
 - Rails 7.05
 
+## システム構成図
+[![Image from Gyazo](https://i.gyazo.com/9319f0156803a8add85502cd11850428.png)](https://gyazo.com/9319f0156803a8add85502cd11850428)
+
 ## 開発環境での始め方
 
 アプリケーションをローカルで開発するための手順は次の通りです:
