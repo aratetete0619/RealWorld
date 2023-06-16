@@ -28,7 +28,7 @@ TodoのCRUD: ユーザーは自分のTodoタスクを作成、閲覧、更新、
 - Rails 7.05
 
 ## インフラ構成図
-[![Image from Gyazo](https://i.gyazo.com/c3327e7c7cf388a3b3551ff687a48191.png)](https://gyazo.com/c3327e7c7cf388a3b3551ff687a48191)
+[![Image from Gyazo](https://i.gyazo.com/c769b8699b61fbf2fc7a1cf85fd424d9.png)](https://gyazo.com/c769b8699b61fbf2fc7a1cf85fd424d9)
 
 ## 開発環境での始め方
 
