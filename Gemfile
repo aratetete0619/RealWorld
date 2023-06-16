@@ -52,6 +52,7 @@ gem 'jwt', '~> 2.2'
 gem 'rubocop', require: false
 gem 'rubocop-rails'
 gem 'rubocop-discourse'
+gem 'mysql2'
 
 
 
@@ -85,8 +86,4 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
-end
-
-group :production do
-  gem 'mysql2'
 end

@@ -11,7 +11,6 @@ AllCops:
     - 'shared/bundle/**/*'
     - 'releases/**/*'
     - 'spec/**/*'
-    -
 ## sider's rubocop stops during this file
 Rails/HttpStatus:
   Exclude:
