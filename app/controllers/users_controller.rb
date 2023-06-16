@@ -1,6 +1,5 @@
 class UsersController < ApplicationController
   def create
-    raise 'Test error for Sentry'
     @user = User.new(user_params)
 
     if @user.save
