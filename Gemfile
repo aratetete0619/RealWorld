@@ -53,6 +53,8 @@ gem 'rubocop', require: false
 gem 'rubocop-rails'
 gem 'rubocop-discourse'
 gem 'mysql2'
+gem "sentry-ruby"
+gem "sentry-rails"
 
 
 
@@ -63,6 +65,7 @@ group :development, :test do
   gem 'factory_bot_rails'
   gem 'faker'
   gem 'bcrypt'
+  gem 'dotenv-rails'
 end
 
 group :development do
