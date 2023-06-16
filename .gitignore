@@ -51,3 +51,10 @@
 /config/credentials/production.key
 
 .env
+
+# Ignore Capistrano deployment directories and files
+/current
+/releases
+/repo
+/revisions.log
+/shared
