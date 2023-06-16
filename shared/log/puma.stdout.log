@@ -259,3 +259,12 @@ No such file or directory @ rb_sysopen - /home/ec2-user/RealWorld/shared/pids/pu
 [195398] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
 [195379] - Worker 1 (PID: 195399) booted in 2.66s, phase: 0
 [195379] - Worker 0 (PID: 195398) booted in 2.66s, phase: 0
+[195379] === puma shutdown: 2023-06-16 09:32:11 +0000 ===
+[195379] - Goodbye!
+[195379] - Gracefully shutting down workers...
+=== puma startup: 2023-06-16 09:32:12 +0000 ===
+[246726] * Starting control server on unix:///tmp/puma-status-1686907932241-246726
+[246746] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[246747] WARNING hook before_worker_boot failed with exception (Psych::AliasesNotEnabled) Alias parsing was not enabled. To enable it, pass `aliases: true` to `Psych::load` or `Psych::safe_load`.
+[246726] - Worker 1 (PID: 246747) booted in 4.65s, phase: 0
+[246726] - Worker 0 (PID: 246746) booted in 4.65s, phase: 0

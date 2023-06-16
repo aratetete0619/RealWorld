@@ -1,5 +1,5 @@
 ---
-pid: 195379
-control_url: unix:///tmp/puma-status-1686819402232-195379
-control_auth_token: 017f24bb201f113b23a19540f9f09bbe
+pid: 246726
+control_url: unix:///tmp/puma-status-1686907932241-246726
+control_auth_token: 873925cf3144bf714a4186919cdcb545
 running_from: "/home/ec2-user/RealWorld"
