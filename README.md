@@ -8,7 +8,9 @@
    ```sh
  # ユーザー登録
 curl -X POST -H "Content-Type: application/json" -d '{ "user": { "username": "testuser", "email": "testuser@example.com", "password": "testpassword" } }' https://nexusxsatoshi.com/api/users
+```
 
+```sh
 # ログインとJWTトークン取得
 curl -X POST -H "Content-Type: application/json" -d '{ "user": { "email": "testuser@example.com", "password": "testpassword" } }' https://nexusxsatoshi.com/api/users/login
 
